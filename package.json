@@ -1,0 +1,12 @@
+{
+  "name": "laboratorio-ci-utp-v2",
+  "version": "1.0.0",
+  "description": "Laboratorio UTP: calculadora Node.js, pruebas Jest e integración continua con GitHub Actions",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
