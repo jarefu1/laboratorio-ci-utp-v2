@@ -82,3 +82,7 @@ Git y GitHub administran versiones, ramas y colaboración; Issues registra histo
 - **Fase 2:** Desencadenamiento de eventos (PR) y ejecución automatizada en **GitHub Actions** (runner: **ubuntu-latest**).
 - **Fase 3:** Verificación de pruebas automatizadas (**Jest**) y migración de tarjeta a **Done** en GitHub Projects.
 
+
+
+## Nota de implementación
+La calculadora expone las operaciones aritméticas básicas y valida la división entre cero. Las pruebas unitarias se ejecutan localmente con Jest y se verifican automáticamente en Node.js 18.x y 20.x mediante GitHub Actions.
